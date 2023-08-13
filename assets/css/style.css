@@ -1,0 +1,83 @@
+
+
+/* Style the video: 100% width and height to cover the entire window */
+#myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+  }
+  
+  /* Add some content at the bottom of the video/page */
+  .menu {
+    position: fixed;
+    text-align: center;
+    color: #f1f1f1;
+    padding: 20px;
+    top: 5%;
+    left: 90%;
+    width: 100%;
+    /* bring your own prefixes */
+    transform: translate(-50%, -50%);
+  }
+  
+  .myButton {
+    background-color: #000000; /* Green */
+    border: none;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 8px;
+    border: 5px solid #ffffff;
+  }
+  
+  .content {
+    position: fixed;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1;
+    padding: 20px;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    /* bring your own prefixes */
+    transform: translate(-50%, -50%);
+  }
+
+  .pause {
+    position: fixed;
+    bottom: 0;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1;
+    width: 100%;
+    padding: 20px;
+  }
+
+  .myNav {
+    background: rgba(0, 0, 0, 0.5);
+    opacity: 10;
+  }
+  
+  /* Style the button used to pause/play the video */
+  #myBtn {
+    width: 200px;
+    font-size: 18px;
+    padding: 10px;
+    border: none;
+    background: #2c2c2c;
+    color: #fff;
+    cursor: pointer;
+    
+  }
+  
+  #myBtn:hover {
+    background: #ddd;
+    color: black;
+  }
